@@ -9,4 +9,9 @@
       <!-- This enables/disables the Add External Users Panel on the Add Users page. -->
       <enable-external-users-panel>false</enable-external-users-panel>
    </config>
+
+<config evaluator="string-compare" condition="DocumentLibrary" >
+        <repository-url><%=serverName%></repository-url>
+</config>
+  
 </alfresco-config>   
